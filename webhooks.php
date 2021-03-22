@@ -20,9 +20,7 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			$dood =$event['text'];
-			if(){
-
-			}
+			
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
